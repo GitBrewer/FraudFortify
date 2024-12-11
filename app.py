@@ -157,8 +157,8 @@ This module uses supervised learning models to analyze claims and identify poten
 class UserAuthApp:
     def __init__(self):
         self.init_db()
-        self.TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "7047754135:AAG8fFEA1lDVe21bQYYTozv3gb_wpf3-5hs")
-        self.TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "1893904443")
+        self.TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "")
+        self.TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 
         # Initialize session state variables
         if "random_number" not in st.session_state:
