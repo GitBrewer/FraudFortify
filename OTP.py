@@ -5,8 +5,8 @@ import time
 import datetime
 
 # Telegram bot details
-TELEGRAM_TOKEN = "7047754135:AAG8fFEA1lDVe21bQYYTozv3gb_wpf3-5hs"
-TELEGRAM_CHAT_ID = "1893904443"
+TELEGRAM_TOKEN = ""
+TELEGRAM_CHAT_ID = ""
 
 # Initialize session state variables
 if "random_number" not in st.session_state:
